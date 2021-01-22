@@ -1,3 +1,8 @@
+//https://github.com/rezalincon/Javascript-Assignment
+
+
+//Problem-1
+
 function kilometerToMeter(n) {
     if (n < 0) {
         return ("Error : Invalid input");
@@ -7,10 +12,9 @@ function kilometerToMeter(n) {
         var meter = kilometer * 1000;
         return meter;
     }
-
 }
 
-
+//Problem-2
 
 function budgetCalculator(watch, phone, laptop) {
     if (watch >= 0 && phone >= 0 && laptop >= 0) {
@@ -27,6 +31,7 @@ function budgetCalculator(watch, phone, laptop) {
     }
 }
 
+//Problem-3
 
 function hotelCost(days) {
     if (days >= 0) {
@@ -48,13 +53,9 @@ function hotelCost(days) {
     else {
         return ("Error : Invalid input")
     }
-
 }
 
-
-
-
-
+//Problem-4
 
 function megaFriend(arr) {
     var lgth = 0;
@@ -68,7 +69,6 @@ function megaFriend(arr) {
     }
     return longest;
 }
-
 
 
 
