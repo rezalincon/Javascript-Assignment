@@ -1,18 +1,20 @@
-//https://github.com/rezalincon/Javascript-Assignment
+// https://github.com/rezalincon/Javascript-Assignment
 
 
 //Problem-1
 
-function kilometerToMeter(n) {
-    if (n < 0) {
+function kilometerToMeter(kilo) {
+    if (kilo < 0) {
         return ("Error : Invalid input");
     }
     else {
-        var kilometer = n;
+        var kilometer = kilo;
         var meter = kilometer * 1000;
         return meter;
     }
 }
+
+
 
 //Problem-2
 
@@ -30,6 +32,8 @@ function budgetCalculator(watch, phone, laptop) {
         return ("Error : Invalid input");
     }
 }
+
+
 
 //Problem-3
 
@@ -54,6 +58,8 @@ function hotelCost(days) {
         return ("Error : Invalid input")
     }
 }
+
+
 
 //Problem-4
 
